@@ -1,0 +1,70 @@
+.search-form {
+  display: flex;
+  align-items: center;
+  margin: 32px 0;
+}
+.search-form button {
+  margin-left: 32px;
+  align-self: baseline;
+}
+
+.movie-list {
+  padding: 24px;
+}
+
+.logo-wrap {
+  display: grid;
+  place-items: center;
+  height: 60vh;
+}
+.logo-wrap img {
+  width: 200px;
+  display: inline-block;
+}
+
+.movie-list-item {
+  cursor: pointer;
+  padding: 24px;
+  width: 80%;
+  margin-bottom: 24px;
+  border-radius: 5px;
+}
+
+.genres {
+  padding-top: 16px;
+}
+.genres div {
+  display: inline-block;
+  padding-right: 32px;
+}
+
+.movie-detail-panel {
+  padding: 40px;
+}
+.movie-detail-panel .left {
+  padding-left: 32px;
+}
+@media (max-width: 600px) {
+  .movie-detail-panel .left {
+    padding-top: 24px;
+    padding-left: 0px;
+  }
+}
+.movie-detail-panel .overview {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.detail-panel-links {
+  margin-top: 32px;
+}
+.detail-panel-links a {
+  text-decoration: none;
+}
+.detail-panel-links button {
+  margin-right: 16px;
+}
+
+/*# sourceMappingURL=main.css.map */
